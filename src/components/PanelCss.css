@@ -1,0 +1,88 @@
+.container{
+  display: flex;
+  height: calc(100vh - 6rem);
+  align-items: center;
+ justify-content: space-between;
+  
+}
+
+.container .controls{
+  width: 35rem;
+  height: 42rem;
+  background-color: #85c7f3;
+  margin-left: 8rem;
+  border-radius: 3rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+  overflow: hidden;
+  border: 1px solid rgba(13, 164, 252, 0.997);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+  
+}
+
+.controls h2{
+  background-color: rgb(56, 159, 243);
+  padding: 1rem 100%;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.622);
+  font-size: 2rem;
+  
+}
+
+.controls .control__box{
+  width: 100%;
+
+}
+
+.control__box label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
+
+.control__box #color{
+  appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 4rem;
+  padding: 0;
+  width: 4rem;
+  
+ 
+}
+
+
+.output{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+
+}
+
+.target{
+  width: 18rem;
+  height: 18rem;
+  background-color: rgb(50, 132, 255);
+}
+
+.output textarea {
+  margin-top: 4rem;
+  resize: none;
+  border: none;
+  outline: 1px solid rgb(85, 151, 250);
+  border-radius: 8px;
+  margin-bottom: -5rem;
+} 
+
+
+
+
+
+
